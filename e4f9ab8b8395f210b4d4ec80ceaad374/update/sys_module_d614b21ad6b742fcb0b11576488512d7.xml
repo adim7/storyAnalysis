@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "name": "x-942105-story-analyz",
+  "version": "1.0.0",
+  "description": "[BUILD AGENT GENERATED]:  Application for analyzing ServiceNow user stories and generating acceptance criteria, development plans, and test scripts for ServiceNow Platform development",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.0.2",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.2"
+  }
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_942105_story_ana/x-942105-story-analyz/1.0.0/package.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-23 21:12:11</sys_created_on>
+        <sys_id>d614b21ad6b742fcb0b11576488512d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_942105_story_ana/x-942105-story-analyz/1.0.0/package.json</sys_name>
+        <sys_package display_value="Story Analyz" source="x_942105_story_ana">e4f9ab8b8395f210b4d4ec80ceaad374</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Story Analyz">e4f9ab8b8395f210b4d4ec80ceaad374</sys_scope>
+        <sys_update_name>sys_module_d614b21ad6b742fcb0b11576488512d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-23 21:12:11</sys_updated_on>
+    </sys_module>
+</record_update>

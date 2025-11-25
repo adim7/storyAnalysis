@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2aebaf4b8395f210b4d4ec80ceaad306" label="Development Plan" max_length="40" name="x_942105_story_ana_development_plan" type="collection">
+        <element attributes="encode_utf8=false" label="Story Analysis" mandatory="true" max_length="32" name="story_analysis" reference="x_942105_story_ana_story_analysis" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Task Description" mandatory="true" max_length="4000" name="task_description" type="string"/>
+        <element label="Complexity (1-10)" max_length="40" name="complexity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Dependency Notes" max_length="1000" name="dependency_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Planned Start Date" max_length="40" name="planned_start_date" type="glide_date_time"/>
+        <element default="true" label="Requires Testing" max_length="40" name="requires_testing" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Technical Notes" max_length="4000" name="technical_notes" type="string"/>
+        <element choice="3" label="Task Type" mandatory="true" max_length="40" name="task_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Configuration" sequence="4" value="configuration"/>
+                <element inactive_on_update="false" label="Documentation" sequence="8" value="documentation"/>
+                <element inactive_on_update="false" label="Analysis" sequence="0" value="analysis"/>
+                <element inactive_on_update="false" label="Scripting" sequence="5" value="scripting"/>
+                <element inactive_on_update="false" label="Deployment" sequence="9" value="deployment"/>
+                <element inactive_on_update="false" label="Design" sequence="1" value="design"/>
+                <element inactive_on_update="false" label="Workflow Development" sequence="6" value="workflow"/>
+                <element inactive_on_update="false" label="Backend Development" sequence="2" value="backend_dev"/>
+                <element inactive_on_update="false" label="Testing" sequence="7" value="testing"/>
+                <element inactive_on_update="false" label="Frontend Development" sequence="3" value="frontend_dev"/>
+            </choice>
+        </element>
+        <element choice="1" default="medium" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+            </choice>
+        </element>
+        <element choice="1" default="planned" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="ready"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Blocked" sequence="6" value="blocked"/>
+                <element inactive_on_update="false" label="Code Review" sequence="3" value="code_review"/>
+                <element inactive_on_update="false" label="Testing" sequence="4" value="testing"/>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Planned End Date" max_length="40" name="planned_end_date" type="glide_date_time"/>
+        <element label="Test Script Generated" max_length="40" name="test_script_generated" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Start Date" max_length="40" name="actual_start_date" type="glide_date_time"/>
+        <element choice="1" label="ServiceNow Component" max_length="40" name="servicenow_component" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Client Script" sequence="2" value="client_script"/>
+                <element inactive_on_update="false" label="Service Portal" sequence="11" value="portal"/>
+                <element inactive_on_update="false" label="Workflow" sequence="7" value="workflow"/>
+                <element inactive_on_update="false" label="UI Page" sequence="3" value="ui_page"/>
+                <element inactive_on_update="false" label="Integration" sequence="12" value="integration"/>
+                <element inactive_on_update="false" label="UI Action" sequence="4" value="ui_action"/>
+                <element inactive_on_update="false" label="Access Control (ACL)" sequence="8" value="acl"/>
+                <element inactive_on_update="false" label="Script Include" sequence="5" value="script_include"/>
+                <element inactive_on_update="false" label="Table" sequence="0" value="table"/>
+                <element inactive_on_update="false" label="Form" sequence="9" value="form"/>
+                <element inactive_on_update="false" label="REST API" sequence="6" value="rest_api"/>
+                <element inactive_on_update="false" label="Business Rule" sequence="1" value="business_rule"/>
+                <element inactive_on_update="false" label="List" sequence="10" value="list"/>
+            </choice>
+        </element>
+        <element default="1" label="Sequence Order" max_length="40" name="sequence_order" type="integer"/>
+        <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Risk Notes" max_length="1000" name="risk_notes" type="string"/>
+        <element choice="1" label="Developer Role" max_length="40" name="developer_role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tester" sequence="5" value="tester"/>
+                <element inactive_on_update="false" label="Backend Developer" sequence="1" value="backend"/>
+                <element inactive_on_update="false" label="Full Stack Developer" sequence="2" value="fullstack"/>
+                <element inactive_on_update="false" label="ServiceNow Admin" sequence="3" value="admin"/>
+                <element inactive_on_update="false" label="Frontend Developer" sequence="0" value="frontend"/>
+                <element inactive_on_update="false" label="Solution Architect" sequence="4" value="architect"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Task Title" mandatory="true" max_length="255" name="task_title" type="string"/>
+        <element label="Estimated Hours" max_length="20" name="estimated_hours" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Depends On" max_length="32" name="depends_on" reference="x_942105_story_ana_development_plan" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Code Snippets/Examples" max_length="4000" name="code_snippets" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mitigation Strategy" max_length="2000" name="mitigation_strategy" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="depends_on"/>
+        </index>
+        <index name="index3">
+            <element name="story_analysis"/>
+        </index>
+    </element>
+</database>

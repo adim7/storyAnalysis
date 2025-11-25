@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3aeb234383d5f210b4d4ec80ceaad37b" label="Story Analysis" max_length="40" name="x_942105_story_ana_story_analysis" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Generated Insights" max_length="4000" name="generated_insights" type="string"/>
+        <element label="Requires Custom Development" max_length="40" name="requires_custom_development" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="ServiceNow Components" max_length="2000" name="servicenow_components" type="string"/>
+        <element choice="1" default="draft" label="Analysis Status" max_length="40" name="analysis_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Review" sequence="2" value="review"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+            </choice>
+        </element>
+        <element choice="1" label="Platform Impact" max_length="40" name="platform_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Moderate" sequence="1" value="moderate"/>
+                <element inactive_on_update="false" label="Significant" sequence="2" value="significant"/>
+                <element inactive_on_update="false" label="Major" sequence="3" value="major"/>
+                <element inactive_on_update="false" label="Minimal" sequence="0" value="minimal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Recommendations" max_length="4000" name="recommendations" type="string"/>
+        <element default="true" label="Configuration Only" max_length="40" name="configuration_only" type="boolean"/>
+        <element label="Complexity Score" max_length="40" name="complexity_score" type="integer"/>
+        <element choice="1" label="Risk Level" max_length="40" name="risk_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Analyzed By" max_length="32" name="analyzed_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Technical Requirements" max_length="4000" name="technical_requirements" type="string"/>
+        <element label="Estimated Effort (Hours)" max_length="40" name="estimated_effort_hours" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Analyzed On" max_length="40" name="analyzed_on" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Dependencies" max_length="2000" name="dependencies" type="string"/>
+        <element attributes="encode_utf8=false" display="true" label="User Story" mandatory="true" max_length="32" name="story" reference="rm_story" type="reference"/>
+        <index name="index">
+            <element name="analyzed_by"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

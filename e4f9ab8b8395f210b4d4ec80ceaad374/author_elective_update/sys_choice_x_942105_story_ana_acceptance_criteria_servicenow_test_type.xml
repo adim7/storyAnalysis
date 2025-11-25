@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="servicenow_test_type" table="x_942105_story_ana_acceptance_criteria" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>servicenow_test_type</element>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>servicenow_test_type</sys_name>
+            <sys_package display_value="Story Analyz" source="x_942105_story_ana">e4f9ab8b8395f210b4d4ec80ceaad374</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Story Analyz">e4f9ab8b8395f210b4d4ec80ceaad374</sys_scope>
+            <sys_update_name>sys_choice_x_942105_story_ana_acceptance_criteria_servicenow_test_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unit Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>unit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integration Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>integration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UI Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>ui</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Workflow Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>workflow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>API Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>api</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>performance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_test_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Test</label>
+            <language>en</language>
+            <name>x_942105_story_ana_acceptance_criteria</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>security</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

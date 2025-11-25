@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="platform_impact" table="x_942105_story_ana_story_analysis" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>platform_impact</element>
+            <name>x_942105_story_ana_story_analysis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>platform_impact</sys_name>
+            <sys_package display_value="Story Analyz" source="x_942105_story_ana">e4f9ab8b8395f210b4d4ec80ceaad374</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Story Analyz">e4f9ab8b8395f210b4d4ec80ceaad374</sys_scope>
+            <sys_update_name>sys_choice_x_942105_story_ana_story_analysis_platform_impact</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minimal</label>
+            <language>en</language>
+            <name>x_942105_story_ana_story_analysis</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>minimal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Moderate</label>
+            <language>en</language>
+            <name>x_942105_story_ana_story_analysis</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>moderate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Significant</label>
+            <language>en</language>
+            <name>x_942105_story_ana_story_analysis</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>significant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>platform_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Major</label>
+            <language>en</language>
+            <name>x_942105_story_ana_story_analysis</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:10</sys_updated_on>
+            <value>major</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

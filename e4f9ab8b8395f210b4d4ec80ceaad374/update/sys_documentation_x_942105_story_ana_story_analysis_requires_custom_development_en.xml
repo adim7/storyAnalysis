@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="requires_custom_development" label="Requires Custom Development" language="en" table="x_942105_story_ana_story_analysis">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>requires_custom_development</element>
+            <help/>
+            <hint/>
+            <label>Requires Custom Development</label>
+            <language>en</language>
+            <name>x_942105_story_ana_story_analysis</name>
+            <plural>Requires Custom Developments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-23 21:12:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requires Custom Development</sys_name>
+            <sys_package display_value="Story Analyz" source="x_942105_story_ana">e4f9ab8b8395f210b4d4ec80ceaad374</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Story Analyz">e4f9ab8b8395f210b4d4ec80ceaad374</sys_scope>
+            <sys_update_name>sys_documentation_x_942105_story_ana_story_analysis_requires_custom_development_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-23 21:12:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

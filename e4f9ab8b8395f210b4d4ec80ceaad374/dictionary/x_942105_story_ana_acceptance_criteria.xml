@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="4beb634383d5f210b4d4ec80ceaad30f" label="Acceptance Criteria" max_length="40" name="x_942105_story_ana_acceptance_criteria" type="collection">
+        <element default="1" label="Order" max_length="40" name="order_sequence" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Steps" max_length="4000" name="test_steps" type="string"/>
+        <element label="Requires Automation" max_length="40" name="requires_automation" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Story Analysis" mandatory="true" max_length="32" name="story_analysis" reference="x_942105_story_ana_story_analysis" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Criteria Title" mandatory="true" max_length="255" name="criteria_title" type="string"/>
+        <element choice="1" default="draft" label="Status" max_length="40" name="criteria_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Review" sequence="1" value="review"/>
+                <element inactive_on_update="false" label="Tested" sequence="5" value="tested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Implemented" sequence="4" value="implemented"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+            </choice>
+        </element>
+        <element choice="1" label="ServiceNow Test Type" max_length="40" name="servicenow_test_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Test" sequence="1" value="integration"/>
+                <element inactive_on_update="false" label="Performance Test" sequence="5" value="performance"/>
+                <element inactive_on_update="false" label="UI Test" sequence="2" value="ui"/>
+                <element inactive_on_update="false" label="Security Test" sequence="6" value="security"/>
+                <element inactive_on_update="false" label="Workflow Test" sequence="3" value="workflow"/>
+                <element inactive_on_update="false" label="Unit Test" sequence="0" value="unit"/>
+                <element inactive_on_update="false" label="API Test" sequence="4" value="api"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Business Value" max_length="1000" name="business_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="2000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Criteria Description" mandatory="true" max_length="4000" name="criteria_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Scenario" max_length="2000" name="test_scenario" type="string"/>
+        <element attributes="encode_utf8=false" label="Test Version" max_length="32" name="test_version" reference="sn_test_management_test_version" type="reference"/>
+        <element default="true" label="Is Testable" max_length="40" name="is_testable" type="boolean"/>
+        <element default="1" label="Priority" max_length="40" name="priority" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Result" max_length="2000" name="expected_result" type="string"/>
+        <index name="index">
+            <element name="story_analysis"/>
+        </index>
+        <index name="index2">
+            <element name="test_version"/>
+        </index>
+    </element>
+</database>
